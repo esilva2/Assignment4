@@ -25,13 +25,7 @@ function upperCase(){
 
     var str = document.getElementById("size").value;
      var parts = str.split(".");
-   var newStr = parts.join("-Moo");
-    //str = str.valueOf().split(".").join("-Moo");
-  
-    //str = parts.join("-Moo");
-      // var upper =  document.getElementById("size").style.textTransform="uppercase";
-//     var upper = document.getElementsByName("name").style.upperCase;
-//    return upper;
-    return newStr;
+   str = parts.join("-Moo");
+    return  document.getElementById("size").value = str;
 
 }
