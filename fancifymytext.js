@@ -23,9 +23,9 @@ var style;
 
 function upperCase(){
 
-    var str = document.getElementById("size").value;
-     var parts = str.split(".");
-   str = parts.join("-Moo");
-    return  document.getElementById("size").value = str;
+     var str = document.getElementById("size").value;
+   var parts = str.split(".");
+   str = parts.join("-Moo"); 
+   return document.getElementById("size").value = str;
 
 }
